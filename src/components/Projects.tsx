@@ -9,11 +9,18 @@ export function Projects() {
       <div className="space-y-8">
         {[
           {
-            name: "studio-ghibli",
-            description: "🌳 Client for Studio Ghibli API",
-            thumbnail: "/images/ghibli-thumbnail.png",
-            code: "https://github.com/goriio/studio-ghibli",
-            demo: "https://ghibli-film.vercel.app",
+            name: "pasuyo",
+            description: "🚚 Client web application for delivery service ",
+            thumbnail: "/images/pasuyo-thumbnail.png",
+            code: "https://github.com/goriio/pasuyo",
+            demo: "https://pasuyo.vercel.app",
+          },
+          {
+            name: "vig",
+            description: "💎 Platform for trading virtual items",
+            thumbnail: "/images/vig-thumbnail.png",
+            code: "https://github.com/goriio/vig",
+            demo: "https://vig.vercel.app",
           },
           {
             name: "unsentpup",
@@ -21,6 +28,13 @@ export function Projects() {
             thumbnail: "/images/unsentpup-thumbnail.png",
             code: "https://github.com/goriio/unsentpup",
             demo: "https://unsentpup.vercel.app",
+          },
+          {
+            name: "studio-ghibli",
+            description: "🌳 Client for Studio Ghibli API",
+            thumbnail: "/images/ghibli-thumbnail.png",
+            code: "https://github.com/goriio/studio-ghibli",
+            demo: "https://ghibli-film.vercel.app",
           },
           {
             name: "mumu",
@@ -35,13 +49,6 @@ export function Projects() {
             thumbnail: "/images/iksi-thumbnail.png",
             code: "https://github.com/goriio/iksi",
             demo: "https://iksi.vercel.app",
-          },
-          {
-            name: "vig",
-            description: "💎 Platform for trading virtual items",
-            thumbnail: "/images/vig-thumbnail.png",
-            code: "https://github.com/goriio/vig",
-            demo: "https://vig.vercel.app",
           },
         ].map(({ name, description, thumbnail, code, demo }) => {
           return (
