@@ -9,6 +9,13 @@ export function Projects() {
       <div className="space-y-8">
         {[
           {
+            name: "mumu",
+            description: "🎵 Music player.",
+            thumbnail: "/images/mumu-thumbnail.png",
+            code: "https://github.com/goriio/mumu",
+            demo: "https://mumu.vercel.app",
+          },
+          {
             name: "pasuyo",
             description: "🚚 Client web application for delivery service ",
             thumbnail: "/images/pasuyo-thumbnail.png",
@@ -35,13 +42,6 @@ export function Projects() {
             thumbnail: "/images/ghibli-thumbnail.png",
             code: "https://github.com/goriio/studio-ghibli",
             demo: "https://ghibli-film.vercel.app",
-          },
-          {
-            name: "mumu",
-            description: "🎵 Music player.",
-            thumbnail: "/images/mumu-thumbnail.png",
-            code: "https://github.com/goriio/mumu",
-            demo: "https://mumu.vercel.app",
           },
           {
             name: "iksi",
