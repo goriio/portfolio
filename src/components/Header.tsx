@@ -52,7 +52,7 @@ export function Header() {
 
         <div className="flex items-center space-x-3">
           <Link to="contact" smooth={true} duration={500} offset={-80}>
-            <Button variant="outline">Get in touch</Button>
+            <Button variant="secondary">Get in touch</Button>
           </Link>
           <a
             href="https://www.canva.com/design/DAFaI-AW8BU/Fbn4SAGjRr9fKtD64BcXgw/edit"
